@@ -1,0 +1,9 @@
+[debug] Copy resource mappings: 
+[debug] 	(D:\MyLearnings\Play\PlayTutorial\EKart\conf\application.conf,D:\MyLearnings\Play\PlayTutorial\EKart\target\scala-2.10\classes\application.conf)
+[debug] 	(D:\MyLearnings\Play\PlayTutorial\EKart\conf\evolutions,D:\MyLearnings\Play\PlayTutorial\EKart\target\scala-2.10\classes\evolutions)
+[debug] 	(D:\MyLearnings\Play\PlayTutorial\EKart\conf\logback.xml,D:\MyLearnings\Play\PlayTutorial\EKart\target\scala-2.10\classes\logback.xml)
+[debug] 	(D:\MyLearnings\Play\PlayTutorial\EKart\conf\META-INF,D:\MyLearnings\Play\PlayTutorial\EKart\target\scala-2.10\classes\META-INF)
+[debug] 	(D:\MyLearnings\Play\PlayTutorial\EKart\conf\routes,D:\MyLearnings\Play\PlayTutorial\EKart\target\scala-2.10\classes\routes)
+[debug] 	(D:\MyLearnings\Play\PlayTutorial\EKart\conf\evolutions\default,D:\MyLearnings\Play\PlayTutorial\EKart\target\scala-2.10\classes\evolutions\default)
+[debug] 	(D:\MyLearnings\Play\PlayTutorial\EKart\conf\evolutions\default\1.sql,D:\MyLearnings\Play\PlayTutorial\EKart\target\scala-2.10\classes\evolutions\default\1.sql)
+[debug] 	(D:\MyLearnings\Play\PlayTutorial\EKart\conf\META-INF\persistence.xml,D:\MyLearnings\Play\PlayTutorial\EKart\target\scala-2.10\classes\META-INF\persistence.xml)

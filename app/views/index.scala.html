@@ -1,0 +1,49 @@
+@(customers: List[Customer])
+@main() {
+	<div ng-app="CustomerApp" ng-controller="CustomerController">
+		<div class="row">
+			<h2>Customers</h2>
+			<table class="table table-striped" ng-table="tableParam">
+				<thead>
+					<tr>
+						<th>First Name</th>
+						<th>Last Name</th>
+						<th>City</th>
+						<th>Action</th>
+					</tr>
+				</thead>
+				<body>
+					<tr ng-repeat="customer in customers">
+						<td>{{customer.firstname}}</td>
+						<td>{{customer.lastname}}</td>
+						<td>{{customer.city}}</td>
+						<td>
+							<button type="button" class="btn btn-info" ng-click="edit(customer)">EDIT</button>
+							<button type="button" class="btn btn-danger" ng-click="delete(customer)">DELETE</button>
+						</td>
+					</tr>
+				</body>
+			</table>
+		</div>
+		<div class="row" ng-show="showFlag">
+			<h2>Edit City</h2>
+			<form ng-submit="editSaveCustomer()">
+				<table>
+					<tr>
+						<td>Name</td>
+						<td>{{editCustomer.firstname}} {{editCustomer.lastname}}</td>
+					</tr>
+					<tr>
+						<td>City</td>
+						<td><input type="text" ng-model="editCustomer.city"/></td>
+					</tr>
+					<tr>
+						<td><button type="submit" class="btn btn-primary">UPDATE</button></td>
+					</tr>
+				</table>
+			</form>
+		</div>
+	</div>
+} {
+	<script type="text/javascript" src="@routes.Assets.at("javascripts/application.js")"></script>
+}

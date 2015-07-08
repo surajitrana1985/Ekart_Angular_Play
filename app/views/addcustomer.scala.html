@@ -1,0 +1,34 @@
+@(customers: List[Customer])
+@main() {
+	<div ng-app="CustomerApp" ng-controller="CustomerController">
+		<div class="row">
+			<form ng-submit="save()">
+				<table cellpadding="10">
+					<tr>
+						<td><label>First Name</label></td>
+						<td><input type="text" ng-model="customer.firstname" width="300"></td>
+					</tr>
+					<tr>
+						<td><label>Last Name</label></td>
+						<td><input type="text" ng-model="customer.lastname" width="300"></td>
+					</tr>
+					<tr>
+						<td><label>City</label></td>
+						<td><input type="text" ng-model="customer.city" width="300"></td>
+					</tr>
+					<tr>
+						<td><button type="submit" class="btn btn-primary">Submit</button></td>
+						<td><button type="reset" class="btn btn-primary">Reset</button></td>
+					</tr>
+				</table>
+			</form>
+		</div>
+		<div class="row">
+			<ul>
+				
+			</ul>
+		</div>
+	</div>
+} {
+	<script type="text/javascript" src="@routes.Assets.at("javascripts/application.js")"></script>
+}
